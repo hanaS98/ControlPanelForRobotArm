@@ -1,7 +1,7 @@
 # * Control Panel For a Robot Arm * 
 
 This repository is about an interface to control a robot arm.
-<p><img src="./Untitled.png" width="350" title="interface"></p>
+<p><img src="./interface.png" width="800" height="400" title="interface"></p>
 
  ## Description 
 <p>This project is an interface of a control panel made to move a robot arm.</p>

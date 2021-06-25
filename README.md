@@ -13,7 +13,7 @@ This file include the code for html starting from linking the page with the css 
 there are 6 servo in the arm that is why there are 6 objects, each object is spreated by div and each object contain a range slider. The slider ranges between 0 and 180. 
 Each slider has a uniqe name to ease the process of sending the values to php page.
 last thing in the html page is the saving button which works to save the values from the range sliders to the database at mySQL.
-<p><img src="./Untitled.png" width="350" title="interface"></p>
+<p><img src="./htmlpage.png" width="350" title="htmlpage"></p>
 
 ### 2. style.css:
 

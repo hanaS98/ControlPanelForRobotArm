@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Controller page </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<form method="POST" action="connect.php">
+  <div class="container">
+    <div class="con1">
+    <p>محرك 1</p>
+    <input type="range" min="0" max="180" value="0" id="sliderValue1" class="slider" name="servo1">
+    <span id="rangeValue1">0</span>
+  </div>
+  <script>
+  var sliderValue1=document.getElementById('sliderValue1');
+  var rangeValue1 = document.getElementById("rangeValue1");
+  rangeValue1.innerHTML=sliderValue1.value;
+  sliderValue1.oninput=function(){
+    rangeValue1.innerHTML=this.value;
+  }
+  </script>
+        <div class="con2">
+        <p>محرك 2</p>
+        <input type="range" min="0" max="180" value="0" id="sliderValue2" class="slider" name="servo2">
+        <span id="rangeValue2">0</span>
+      </div>
+      <script>
+      var sliderValue2=document.getElementById('sliderValue2');
+      var rangeValue2 = document.getElementById("rangeValue2");
+      rangeValue2.innerHTML=sliderValue2.value;
+      sliderValue2.oninput=function(){
+        rangeValue2.innerHTML=this.value;
+      }
+      </script>
+      <div class="con2">
+      <p>محرك 3</p>
+      <input type="range" min="0" max="180" value="0" id="sliderValue3" class="slider" name="servo3">
+      <span id="rangeValue3">0</span>
+    </div>
+    <script>
+    var sliderValue3=document.getElementById('sliderValue3');
+    var rangeValue3 = document.getElementById("rangeValue3");
+    rangeValue3.innerHTML=sliderValue3.value;
+    sliderValue3.oninput=function(){
+      rangeValue3.innerHTML=this.value;
+    }
+    </script>
+          <div class="con2">
+          <p>محرك 4</p>
+          <input type="range" min="0" max="180" value="0" id="sliderValue4" class="slider" name="servo4">
+          <span id="rangeValue4">0</span>
+        </div>
+        <script>
+        var sliderValue4=document.getElementById('sliderValue4');
+        var rangeValue4 = document.getElementById("rangeValue4");
+        rangeValue4.innerHTML=sliderValue4.value;
+        sliderValue4.oninput=function(){
+          rangeValue4.innerHTML=this.value;
+        }
+        </script>
+        <div class="con2">
+        <p>محرك 5</p>
+        <input type="range" min="0" max="180" value="0" id="sliderValue5" class="slider" name="servo5">
+        <span id="rangeValue5">0</span>
+      </div>
+      <script>
+      var sliderValue5=document.getElementById('sliderValue5');
+      var rangeValue5 = document.getElementById("rangeValue5");
+      rangeValue5.innerHTML=sliderValue5.value;
+      sliderValue5.oninput=function(){
+        rangeValue5.innerHTML=this.value;
+      }
+      </script>
+
+            <div class="con2">
+            <p>محرك 6</p>
+            <input type="range" min="0" max="180" value="0" id="sliderValue6" class="slider" name="servo6">
+            <span id="rangeValue6">0</span>
+          </div>
+          <script>
+          var sliderValue6=document.getElementById('sliderValue6');
+          var rangeValue6 = document.getElementById("rangeValue6");
+          rangeValue6.innerHTML=sliderValue6.value;
+          sliderValue6.oninput=function(){
+            rangeValue6.innerHTML=this.value;
+          }
+          </script>
+
+<div class="buttonPostion">
+
+<input type="submit" class="button" value="حفظ">
+<button type="button" class="button" onclick="myFunction()">تشغيل</button>
+<script>
+function myFunction(){
+  var value1 = document.getElementById('sliderValue1').value;
+  var value2 = document.getElementById('sliderValue2').value;
+  var value3 = document.getElementById('sliderValue3').value;
+  var value4 = document.getElementById('sliderValue4').value;
+  var value5 = document.getElementById('sliderValue5').value;
+  var value6 = document.getElementById('sliderValue6').value;
+  myWindow = window.open('','','width=400,height=400');
+  myWindow.document.write("",value1,"<p></p> ",
+  value2,"<p></p> ",value3,"<p></p> ",value4,"<p></p> ",
+  value5,"<p></p> ",value6);
+}
+</script>
+
+</div>
+</form>
+
+    </div>
+
+</body>
+
+
+
+</html>

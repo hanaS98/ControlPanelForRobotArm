@@ -9,11 +9,12 @@ This repository is about an interface to control a robot arm.
 
 ### 1. ConntrolPanel.html:
  
-This file include the code for html starting from linking the page with the css file for the page layout, then linking it with the php page that includes the functional methodes.
-there are 6 servo in the arm that is why there are 6 objects, each object is spreated by div and each object contain a range slider. The slider ranges between 0 and 180. 
+This page include the code for html starting from linking the page with the css page for the layout, then linking it with the php page that includes the functional methodes.
+there are 6 servo in the arm thats why there are 6 range sliders, each slider is spreated by div. The slider values ranges between 0 and 180. 
 Each slider has a uniqe name to ease the process of sending the values to php page.
-last thing in the html page is the saving button which works to save the values from the range sliders to the database at mySQL.
-<p><img src="./htmlpage.png" width="350" title="htmlpage"></p>
+the last commands in the html page is the buttons, there are two buttons one for saving the values from the range sliders to the database at mySQL and the other is to display the values in seprate page.
+<div><img src="./htmlpage.png" width="500" height="380" title="htmlpage">
+<img src="./buttons.png" width="450" height="380" title="buttons"></div>
 
 ### 2. style.css:
 

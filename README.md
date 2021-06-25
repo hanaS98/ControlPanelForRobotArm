@@ -29,10 +29,10 @@ This page connect the values of the servos to the database and if the values are
 #### 4. lastRecord.php:
 
 This page retrive the last row in the database and display it.
-<p><img src="./Untitled.png" width="450" height="350" title="interface"></p>
+<p><img src="./lastrecordpage.png" width="450" height="350" title="lastrecordpage"></p>
 
-#### 5. robotcontroller:
+#### 5. robotcontroller.sql:
 
 This is the database file.
-<p><img src="./Untitled.png" width="350" title="interface"></p>
+<p><img src="./database.png" width="450" height="200" title="database"></p>
 

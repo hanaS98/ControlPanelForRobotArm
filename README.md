@@ -19,7 +19,7 @@ the last commands in the html page is the buttons, there are two buttons one for
 ### 2. style.css:
 
 This file include the design of the elements on the html page like the bakeground, fonts and the layout style of the page.
-<p><img src="./Untitled.png" width="350" title="interface"></p>
+<p><img src="./stylepage.png" width="350" title="stylepage"></p>
 
 ### 3. connect.php:
 
